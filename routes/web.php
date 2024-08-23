@@ -11,38 +11,27 @@ Route::get('/', function () {
         if ($user->role->name === 'admin') {
             return redirect()->route('admin.dashboard');
         } else {
-            return redirect()->route('home');
+            return redirect()->route('user.home');
         }
     }
-    return redirect()->route('login');
+    return view('welcome');
 })->name('home');
 
-Auth::routes(['middleware' => ['redirectIfAuthenticated']]);
-
+Auth::routes();
 
 Route::middleware(['auth', 'role.admin'])->group(function () {
     Route::get('/admin', [AdminController::class, 'index'])->name('admin.dashboard');
 });
 
 Route::middleware(['auth', 'role.user'])->group(function () {
-    Route::get('/home', [UserController::class, 'index'])->name('home');
+    Route::get('/user-home', [UserController::class, 'index'])->name('user.home');
 });
 
-// Contoh
-// Route::get('/', function () {
-//     if (Auth::check()) {
-//         $user = Auth::user();
-//         if ($user->role->name === 'super_admin') {
-//             return redirect()->route('super_admin.dashboard');
-//         } elseif ($user->role->name === 'admin') {
-//             return redirect()->route('admin.dashboard');
-//         } elseif ($user->role->name === 'kaprog') {
-//             return redirect()->route('kaprog.dashboard');
-//         } elseif ($user->role->name === 'pemray') {
-//             return redirect()->route('pemray.dashboard');
-//         } else {
-//             return redirect()->route('home');
-//         }
-//     }
-//     return redirect()->route('login');
-// })->name('home');
+Route::get('/home', function () {
+    $user = Auth::user();
+    if ($user->role->name === 'admin') {
+        return redirect()->route('admin.dashboard');
+    } else {
+        return redirect()->route('user.home');
+    }
+})->middleware('auth');
