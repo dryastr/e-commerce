@@ -72,7 +72,7 @@
             </div>
             <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="my-3">
-                    <a href="#" class="btn btn-primary d-inline rounded-pill px-5 py-3">Explore More Foods</a>
+                    <a href="#product" class="btn btn-primary d-inline rounded-pill px-5 py-3">Explore More Foods</a>
                 </div>
             </div>
         </div>

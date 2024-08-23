@@ -30,6 +30,8 @@ Route::middleware(['auth', 'role.admin'])->group(function () {
 
 Route::middleware(['auth', 'role.user'])->group(function () {
     Route::get('/user-home', [UserController::class, 'index'])->name('user.home');
+
+    Route::resource('testimonial-user', UserController::class)->only(['store']);
 });
 
 Route::get('/home', function () {

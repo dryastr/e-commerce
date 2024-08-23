@@ -1,12 +1,13 @@
 <div class="container-fluid service py-5" id="service">
     <div class="container py-5">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
-            <h4 class="mb-1 text-primary righteous-regular">Our Service</h4>
-            <h1 class="display-5 mb-4 righteous-regular">What We Can Do For You</h1>
-            <p class="mb-0">Dolor sit amet consectetur, adipisicing elit. Ipsam, beatae maxime. Vel animi eveniet
-                doloremque reiciendis soluta iste provident non rerum illum perferendis earum est architecto dolores
-                vitae quia vero quod incidunt culpa corporis, porro doloribus. Voluptates nemo doloremque cum.
-            </p>
+            <h4 class="mb-1 text-primary righteous-regular">Our Services</h4>
+            <h1 class="display-5 mb-4 righteous-regular">How We Serve You Best</h1>
+            <p class="mb-0">At Dazzleen Food, we go beyond just delivering delicious meals—we’re dedicated to providing
+                an exceptional service experience. From our easy-to-use pre-order system to our reliable delivery, every
+                step of our service is designed with your convenience in mind. Our commitment to quality ensures that
+                each product arrives fresh and flavorful, ready to satisfy your cravings. Let us take care of the
+                details, so you can simply enjoy the food you love.</p>
         </div>
         <div class="row g-4 justify-content-center">
             <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -15,10 +16,9 @@
                         <img src="{{ asset('assets-web/img/konten/book-menu.png') }}" alt="">
                     </div>
                     <div class="service-content">
-                        <h4 class="mb-4">Variasi Menu</h4>
-                        <p class="mb-4">Lihat berbagai pilihan menu kami, yang selalu disesuaikan dengan musim dan
-                            tren kuliner terbaru
-                        </p>
+                        <h4 class="mb-4">Menu Variety</h4>
+                        <p class="mb-4">Explore our wide range of menu options, always curated to reflect the latest
+                            culinary trends and seasonal favorites.</p>
                     </div>
                 </div>
             </div>
@@ -28,10 +28,9 @@
                         <img src="{{ asset('assets-web/img/konten/pen.png') }}" alt="">
                     </div>
                     <div class="service-content">
-                        <h4 class="mb-4">Sistem PreOrder </h4>
-                        <p class="mb-4">Sistem pre-order yang mudah dan efisien memungkinkan Anda memesan hidangan
-                            favorit Anda dengan nyaman
-                        </p>
+                        <h4 class="mb-4">Pre-Order System</h4>
+                        <p class="mb-4">Our easy and efficient pre-order system allows you to conveniently order your
+                            favorite dishes.</p>
                     </div>
                 </div>
             </div>
@@ -41,10 +40,9 @@
                         <img src="{{ asset('assets-web/img/konten/spoon-fork.png') }}" alt="">
                     </div>
                     <div class="service-content">
-                        <h4 class="mb-4">Kualitas Rasa</h4>
-                        <p class="mb-4">Kami memastikan rasa yang lezat dan memuaskan dengan menggunakan bahan-bahan
-                            segar & berkualitas tinggi.
-                        </p>
+                        <h4 class="mb-4">Taste Quality</h4>
+                        <p class="mb-4">We ensure delicious and satisfying flavors by using fresh and high-quality
+                            ingredients.</p>
                     </div>
                 </div>
             </div>
@@ -54,10 +52,9 @@
                         <img src="{{ asset('assets-web/img/konten/find-market.png') }}" alt="">
                     </div>
                     <div class="service-content">
-                        <h4 class="mb-4">Informasi Online Shop</h4>
-                        <p class="mb-4">Ikuti kami di media sosial untuk informasi terbaru tentang menu, promo, dan
-                            tips kuliner menarik
-                        </p>
+                        <h4 class="mb-4">Online Shop Information</h4>
+                        <p class="mb-4">Follow us on social media for the latest updates on our menu, promotions, and
+                            culinary tips.</p>
                     </div>
                 </div>
             </div>
@@ -67,10 +64,9 @@
                         <img src="{{ asset('assets-web/img/konten/payment.png') }}" alt="">
                     </div>
                     <div class="service-content">
-                        <h4 class="mb-4">Metode Pembayaran</h4>
-                        <p class="mb-4">Kami menawarkan berbagai metode pembayaran yang aman dan nyaman untuk
-                            mempermudah transaksi Anda
-                        </p>
+                        <h4 class="mb-4">Payment Methods</h4>
+                        <p class="mb-4">We offer a variety of safe and convenient payment methods to make your
+                            transactions easier.</p>
                     </div>
                 </div>
             </div>
@@ -80,13 +76,13 @@
                         <img src="{{ asset('assets-web/img/konten/testimoni.png') }}" alt="">
                     </div>
                     <div class="service-content">
-                        <h4 class="mb-4">Testimoni </h4>
-                        <p class="mb-4">Baca ulasan pelanggan lain yang menikmati hidangan kami dan bagikan pengalaman
-                            Anda sendiri.
-                        </p>
+                        <h4 class="mb-4">Testimonials</h4>
+                        <p class="mb-4">Read reviews from other customers who have enjoyed our dishes, and share your
+                            own experience.</p>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
 </div>

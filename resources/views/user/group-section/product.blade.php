@@ -1,12 +1,12 @@
-<div class="container-fluid blog py-5">
+<div class="container-fluid blog py-5" id="product">
     <div class="container py-5">
         <div class="text-center mx-auto mb-5" style="max-width: 900px;">
-            <h4 class="text-primary righteous-regular">Our Product</h4>
-            <h1 class="display-5 mb-4 righteous-regular ">Lorem ipsum dolor sit.</h1>
-            <p class="mb-0">Dolor sit amet consectetur, adipisicing elit. Ipsam, beatae maxime. Vel animi eveniet
-                doloremque reiciendis soluta iste provident non rerum illum perferendis earum est architecto dolores
-                vitae quia vero quod incidunt culpa corporis, porro doloribus. Voluptates nemo doloremque cum.
-            </p>
+            <h4 class="text-primary righteous-regular">Our Products</h4>
+            <h1 class="display-5 mb-4 righteous-regular">Deliciously Crafted for You</h1>
+            <p class="mb-0">Indulge in the exquisite flavors of our handcrafted food products. At Dazzleen Food, we
+                take pride in using only the finest ingredients to create meals that delight your taste buds. Whether
+                you’re craving something savory or sweet, our diverse selection promises to bring warmth and joy to
+                every bite. Experience the difference in quality and taste—because you deserve nothing but the best.</p>
         </div>
 
         <!-- Tabs -->
