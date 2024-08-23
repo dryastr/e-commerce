@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Category;
-use App\Models\Product;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -25,15 +23,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        // Mengambil semua kategori
-        $categories = Category::all();
-
-        // Mengambil produk berdasarkan kategori (untuk tab pertama)
-        $productsByCategory = [];
-        foreach ($categories as $category) {
-            $productsByCategory[$category->id] = Product::where('category_id', $category->id)->get();
-        }
-
-        return view('home', compact('categories', 'productsByCategory'));
+        return view('home');
     }
 }

@@ -16,7 +16,7 @@ Route::get('/', function () {
             return redirect()->route('user.home');
         }
     }
-    return view('user.dashboard');
+    return view('user.landing');
 })->name('home');
 
 Auth::routes();

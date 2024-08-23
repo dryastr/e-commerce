@@ -53,11 +53,9 @@
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Dazzleenfood</a>, All right reserved.</span>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end text-white">
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By
-                        <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a>
+                        <span class="text-white"><a href="#"><i
+                                    class="fas fa-copyright text-light me-2"></i>Dazzleenfood</a>, All right
+                            reserved.</span>
                     </div>
                 </div>
             </div>

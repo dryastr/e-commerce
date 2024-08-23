@@ -15,9 +15,27 @@
             <a href="#testimoni" class="nav-item nav-link">Testimoni</a>
             <a href="#contact" class="nav-item nav-link">Contact Us</a>
         </div>
-        <a href="{{ route('login') }}"
-            class="btn btn-light border border-primary rounded-pill text-primary py-2 px-4 me-4">Log
-            In</a>
-        <a href="{{ route('register') }}" class="btn btn-primary rounded-pill text-white py-2 px-4">Sign Up</a>
+        <!-- Check if the user is not authenticated -->
+        @guest
+            <a href="{{ route('login') }}"
+                class="btn btn-light border border-primary rounded-pill text-primary py-2 px-4 me-4">
+                Log In
+            </a>
+            <a href="{{ route('register') }}" class="btn btn-primary rounded-pill text-white py-2 px-4">
+                Sign Up
+            </a>
+        @endguest
+
+        <!-- Check if the user is authenticated -->
+        @auth
+            <a class="btn btn-primary rounded-pill text-white py-2 px-4" href="{{ route('logout') }}"
+                onclick="event.preventDefault();
+             document.getElementById('logout-form').submit();">
+                Log Out
+            </a>
+            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                @csrf
+            </form>
+        @endauth
     </div>
 </nav>

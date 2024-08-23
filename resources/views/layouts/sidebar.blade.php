@@ -55,7 +55,7 @@
             @if (auth()->user()->role->name == 'admin')
                 <li class="sidebar-item has-sub {{ Request::is('products*') ? 'active' : '' }}">
                     <a href="#" class='sidebar-link'>
-                        <i class="bi bi-card-checklist"></i>
+                        <i class="bi bi-archive"></i>
                         <span>Produk</span>
                     </a>
 
