@@ -16,7 +16,7 @@ Route::get('/', function () {
             return redirect()->route('user.home');
         }
     }
-    return view('user.landing');
+    return view('user.dashboard');
 })->name('home');
 
 Auth::routes();
@@ -28,17 +28,6 @@ Route::middleware(['auth', 'role.admin'])->group(function () {
     Route::resource('products', ProductController::class);
 });
 
-Route::middleware(['auth', 'role.user'])->group(function () {
-    Route::get('/user-home', [UserController::class, 'index'])->name('user.home');
+Route::get('/', [UserController::class, 'index'])->name('user.home');
 
-    Route::resource('testimonial-user', UserController::class)->only(['store']);
-});
-
-Route::get('/home', function () {
-    $user = Auth::user();
-    if ($user->role->name === 'admin') {
-        return redirect()->route('admin.dashboard');
-    } else {
-        return redirect()->route('user.home');
-    }
-})->middleware('auth');
+Route::resource('testimonial-user', UserController::class)->only(['store']);

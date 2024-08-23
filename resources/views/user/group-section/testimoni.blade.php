@@ -40,10 +40,6 @@
     </div>
 </div>
 
-{{-- <!-- Button to Open the Modal -->
-<button type="button" class="btn btn-primary" >
-    Add Testimonial
-</button> --}}
 
 <!-- The Modal -->
 <div class="modal fade" id="testimonialModal" tabindex="-1" aria-labelledby="testimonialModalLabel" aria-hidden="true">
@@ -76,8 +72,14 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Save Testimonial</button>
+                    @if (Auth::check())
+                        <button type="submit" class="btn btn-primary">Save Testimonial</button>
+                    @else
+                        <button type="button" class="btn btn-primary"
+                            onclick="window.location.href='{{ route('login') }}'">
+                            Save Testimonial
+                        </button>
+                    @endif
                 </div>
             </div>
         </form>

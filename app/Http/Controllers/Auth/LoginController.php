@@ -44,7 +44,7 @@ class LoginController extends Controller
             case 'admin':
                 return redirect()->route('admin.dashboard');
             default:
-                return redirect()->route('home');
+                return redirect()->route('user.home');
         }
     }
 }
