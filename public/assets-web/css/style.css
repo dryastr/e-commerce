@@ -706,7 +706,7 @@
 .blog .blog-item .blog-img {
     position: relative;
     overflow: hidden;
-    background: rgba(102, 16, 242, 0.2);
+    background: rgba(242, 137, 16, 0.2);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
@@ -718,7 +718,7 @@
     bottom: 0;
     left: 0;
     padding: 20px;
-    /* background: rgba(102, 16, 242, 0.2); */
+    background: rgb(242 160 16 / 20%);
     color: var(--bs-white) !important;
     display: flex;
     align-items: end;

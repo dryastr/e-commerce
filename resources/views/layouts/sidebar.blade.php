@@ -53,21 +53,37 @@
             </li>
 
             @if (auth()->user()->role->name == 'admin')
-                {{-- <li class="sidebar-item has-sub {{ Request::is('admin.addusers.index*') ? 'active' : '' }}">
+                <li class="sidebar-item has-sub {{ Request::is('products*') ? 'active' : '' }}">
                     <a href="#" class='sidebar-link'>
                         <i class="bi bi-card-checklist"></i>
-                        <span>Pegawai</span>
+                        <span>Produk</span>
                     </a>
 
                     <ul class="submenu">
-                        <li class="submenu-item {{ Request::routeIs('admin.addusers.index') ? 'active' : '' }}">
-                            <a href="{{ route('admin.addusers.index') }}" class="submenu-link">Daftar Pegawai</a>
+                        <li class="submenu-item {{ Request::routeIs('products.index') ? 'active' : '' }}">
+                            <a href="{{ route('products.index') }}" class="submenu-link">Daftar Produk</a>
                         </li>
-                        <li class="submenu-item {{ Request::routeIs('admin.addusers.create') ? 'active' : '' }}">
-                            <a href="{{ route('admin.addusers.create') }}" class="submenu-link">Tambah Pegawai</a>
+                        <li class="submenu-item d-none {{ Request::routeIs('products.create') ? 'active' : '' }}">
+                            <a href="{{ route('products.create') }}" class="submenu-link">Tambah Produk</a>
                         </li>
                     </ul>
-                </li> --}}
+                </li>
+
+                <li class="sidebar-item has-sub {{ Request::is('categories*') ? 'active' : '' }}">
+                    <a href="#" class='sidebar-link'>
+                        <i class="bi bi-card-checklist"></i>
+                        <span>Kategori</span>
+                    </a>
+
+                    <ul class="submenu">
+                        <li class="submenu-item {{ Request::routeIs('categories.index') ? 'active' : '' }}">
+                            <a href="{{ route('categories.index') }}" class="submenu-link">Daftar Kategori</a>
+                        </li>
+                        <li class="submenu-item d-none {{ Request::routeIs('categories.create') ? 'active' : '' }}">
+                            <a href="{{ route('categories.create') }}" class="submenu-link">Tambah Kategori</a>
+                        </li>
+                    </ul>
+                </li>
             @endif
 
 

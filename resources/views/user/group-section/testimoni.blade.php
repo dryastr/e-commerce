@@ -12,10 +12,6 @@
             <div class="testimonial-item" data-dot="<img class='img-fluid' src='img/testimonial-img-1.jpg' alt=''>">
                 <div class="testimonial-inner text-center p-5">
                     <div class="d-flex align-items-center justify-content-center mb-4">
-                        <div class="testimonial-inner-img border border-primary border-3 me-4"
-                            style="width: 100px; height: 100px; border-radius: 50%;">
-                            <img src="img/testimonial-img-1.jpg" class="img-fluid rounded-circle" alt="">
-                        </div>
                         <div>
                             <h5 class="mb-2">John Abraham</h5>
                             <p class="mb-0">New York, USA</p>
@@ -39,10 +35,6 @@
             <div class="testimonial-item" data-dot="<img class='img-fluid' src='img/testimonial-img-2.jpg' alt=''>">
                 <div class="testimonial-inner text-center p-5">
                     <div class="d-flex align-items-center justify-content-center mb-4">
-                        <div class="testimonial-inner-img border border-primary border-3 me-4"
-                            style="width: 100px; height: 100px; border-radius: 50%;">
-                            <img src="img/testimonial-img-2.jpg" class="img-fluid rounded-circle" alt="">
-                        </div>
                         <div>
                             <h5 class="mb-2">John Abraham</h5>
                             <p class="mb-0">New York, USA</p>
@@ -66,10 +58,6 @@
             <div class="testimonial-item" data-dot="<img class='img-fluid' src='img/testimonial-img-3.jpg' alt=''>">
                 <div class="testimonial-inner text-center p-5">
                     <div class="d-flex align-items-center justify-content-center mb-4">
-                        <div class="testimonial-inner-img border border-primary border-3 me-4"
-                            style="width: 100px; height: 100px; border-radius: 50%;">
-                            <img src="img/testimonial-img-3.jpg" class="img-fluid rounded-circle" alt="">
-                        </div>
                         <div>
                             <h5 class="mb-2">John Abraham</h5>
                             <p class="mb-0">New York, USA</p>

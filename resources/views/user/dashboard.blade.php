@@ -73,7 +73,7 @@
             $('.blog-slider').slick({
                 infinite: false,
                 slidesToShow: 4,
-                slidesToScroll: ,
+                slidesToScroll: 4,
                 autoplay: false,
                 autoplaySpeed: 2000,
                 arrows: false,
