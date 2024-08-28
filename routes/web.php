@@ -3,6 +3,7 @@
 use App\Http\Controllers\admin\AdminController;
 use App\Http\Controllers\admin\manajemen\CategoriesController;
 use App\Http\Controllers\admin\manajemen\ProductController;
+use App\Http\Controllers\admin\manajemen\TestimonialsController;
 use App\Http\Controllers\user\UserController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
@@ -26,6 +27,7 @@ Route::middleware(['auth', 'role.admin'])->group(function () {
 
     Route::resource('categories', CategoriesController::class);
     Route::resource('products', ProductController::class);
+    Route::resource('testimonials', TestimonialsController::class);
 });
 
 Route::get('/', [UserController::class, 'index'])->name('user.home');

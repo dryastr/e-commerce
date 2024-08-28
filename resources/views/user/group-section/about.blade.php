@@ -9,7 +9,7 @@
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="d-flex flex-column align-items-start justify-content-center h-100">
                     <h4 class="mb-1 text-primary righteous-regular fs-1">About Us</h4>
-                    <p class="mb-4 fs-6">Di era modern ini, banyak orang yang ingin menikmati hidangan lezat tanpa repot
+                    <p class="mb-4 fs-6" style="text-align: justify">Di era modern ini, banyak orang yang ingin menikmati hidangan lezat tanpa repot
                         memasak atau menunggu dalam antrean panjang di restoran. Dazzleen Food hadir untuk memenuhi
                         keinginan tersebut dengan menawarkan berbagai macam makanan ringan yang lezat melalui platform
                         pre-order online yang mudah digunakan. Kami adalah produsen makanan rumahan yang mengutamakan

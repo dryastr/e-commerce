@@ -57,7 +57,7 @@
                 <h4 class="mb-1 text-dark righteous-regular">Email Marketing</h4>
                 <h1 class="title-jumbotron text-dark mb-4 wow fadeInUp righteous-regular" data-wow-delay="0.3s"
                     style="">HomeMade</h1>
-                <p class="fs-5 mb-4 wow fadeInUp" data-wow-delay="0.5s">Selamat datang di Dazzleen Food! Kami bangga menjadi
+                <p class="fs-5 mb-4 wow fadeInUp" style="text-align: justify" data-wow-delay="0.5s">Selamat datang di Dazzleen Food! Kami bangga menjadi
                     pilihan utama Anda untuk memesan makanan dengan sistem pre-order. Di sini, Anda dapat dengan mudah
                     mengelola pesanan, melihat menu terbaru, dan memanfaatkan berbagai fitur untuk pengalaman berbelanja
                     yang lebih baik. Terima kasih telah memilih Dazzleen Food, dan selamat menikmati layanan kami yang

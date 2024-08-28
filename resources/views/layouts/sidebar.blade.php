@@ -84,6 +84,22 @@
                         </li>
                     </ul>
                 </li>
+
+                <li class="sidebar-item has-sub {{ Request::is('testimonials*') ? 'active' : '' }}">
+                    <a href="#" class='sidebar-link'>
+                        <i class="bi bi-list-nested"></i>
+                        <span>Testimoni</span>
+                    </a>
+
+                    <ul class="submenu">
+                        <li class="submenu-item {{ Request::routeIs('testimonials.index') ? 'active' : '' }}">
+                            <a href="{{ route('testimonials.index') }}" class="submenu-link">Daftar Testimoni</a>
+                        </li>
+                        <li class="submenu-item d-none {{ Request::routeIs('testimonials.create') ? 'active' : '' }}">
+                            <a href="{{ route('testimonials.create') }}" class="submenu-link">Tambah Testimoni</a>
+                        </li>
+                    </ul>
+                </li>
             @endif
 
 
