@@ -9,16 +9,13 @@
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="d-flex flex-column align-items-start justify-content-center h-100">
                     <h4 class="mb-1 text-primary righteous-regular fs-1">About Us</h4>
-                    <p class="mb-4 fs-6">In this modern era, many people want to enjoy delicious meals without the hassle
-                        of cooking or waiting in long lines at restaurants. Dazzleen Food is here to fulfill that desire
-                        by offering a wide variety of tasty and delightful snacks through an easy-to-use online pre-order
-                        platform. We are a home-based food producer that prioritizes quality in food production (whether
-                        frozen or ready-to-eat).
-                        <br>
-                        <br>
-                        Dazzleen Food was born from the owner's passion for culinary arts. It was founded with the
-                        enthusiasm to serve high-quality food with exceptional taste.
-                    </p>
+                    <p class="mb-4 fs-6">Di era modern ini, banyak orang yang ingin menikmati hidangan lezat tanpa repot
+                        memasak atau menunggu dalam antrean panjang di restoran. Dazzleen Food hadir untuk memenuhi
+                        keinginan tersebut dengan menawarkan berbagai macam makanan ringan yang lezat melalui platform
+                        pre-order online yang mudah digunakan. Kami adalah produsen makanan rumahan yang mengutamakan
+                        kualitas dalam produksi makanan (baik yang beku maupun siap saji). <br> <br> Dazzleen Food lahir
+                        dari hasrat pemiliknya terhadap seni kuliner. Didirikan dengan semangat untuk menyajikan makanan
+                        berkualitas tinggi dengan cita rasa yang luar biasa. </p>
                 </div>
             </div>
         </div>

@@ -3,13 +3,14 @@
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
             <h4 class="text-primary righteous-regular">Testimonials</h4>
             <h1 class="display-5 mb-4 righteous-regular">What Our Clients Are Saying</h1>
-            <p class="mb-0">Discover why our clients love us. From outstanding quality to exceptional service, see how
-                we’ve made a difference in their lives. Your satisfaction is our top priority, and we’re proud to share
-                the experiences of those who trust us.</p>
+            <p class="mb-0">Temukan mengapa klien kami menyukai kami. Dari kualitas luar biasa hingga layanan yang
+                istimewa, lihat bagaimana kami telah membuat perbedaan dalam hidup mereka. Kepuasan Anda adalah
+                prioritas utama kami, dan kami bangga membagikan pengalaman mereka yang mempercayai kami.</p>
             <a href="#" data-bs-toggle="modal" data-bs-target="#testimonialModal" style="text-decoration: none;"
                 onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">
-                Write a Testimonial
+                Tulis Testimonial
             </a>
+
         </div>
         <div class="testimonial-carousel owl-carousel wow zoomInDown" data-wow-delay="0.2s">
             @foreach ($testimonials as $testimonial)

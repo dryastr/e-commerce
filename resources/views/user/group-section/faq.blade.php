@@ -14,11 +14,12 @@
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body my-2">
                                 <h5>Fresh Ingredients and Quality Assurance</h5>
-                                <p>At Dazzleen Food, we prioritize using only the freshest ingredients to ensure
-                                    you receive the highest quality meals. Our chefs are passionate about crafting
-                                    delicious, healthy dishes that meet your dietary needs and preferences.</p>
-                                <p>We also maintain strict quality control standards throughout the preparation and
-                                    delivery process, so you can enjoy your meal with confidence.</p>
+                                <p>Di Dazzleen Food, kami mengutamakan penggunaan bahan-bahan segar untuk memastikan
+                                    Anda menerima hidangan dengan kualitas terbaik. Para koki kami berdedikasi untuk
+                                    menciptakan hidangan lezat dan sehat yang sesuai dengan kebutuhan dan preferensi
+                                    diet Anda.</p>
+                                <p>Kami juga menjaga standar kontrol kualitas yang ketat selama proses persiapan dan
+                                    pengiriman, sehingga Anda dapat menikmati hidangan dengan penuh keyakinan.</p>
                             </div>
                         </div>
                     </div>
@@ -34,12 +35,12 @@
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body my-2">
                                 <h5>Transparent Pricing, No Surprises</h5>
-                                <p>We believe in transparency with our customers. At Dazzleen Food, the price you see
-                                    is the price you pay. There are no hidden fees or unexpected charges. Our pricing
-                                    structure is clear, so you can order with confidence knowing exactly what you're
-                                    paying for.</p>
-                                <p>Your satisfaction is our priority, and we ensure that our pricing reflects the
-                                    value and quality of the meals we provide.</p>
+                                <p>Kami percaya pada transparansi dengan pelanggan kami. Di Dazzleen Food, harga yang
+                                    Anda lihat adalah harga yang Anda bayar. Tidak ada biaya tersembunyi atau biaya
+                                    tambahan yang tidak terduga. Struktur harga kami jelas, sehingga Anda dapat memesan
+                                    dengan penuh keyakinan mengetahui dengan pasti apa yang Anda bayar.</p>
+                                <p>Kepuasan Anda adalah prioritas kami, dan kami memastikan bahwa harga kami
+                                    mencerminkan nilai dan kualitas hidangan yang kami sediakan.</p>
                             </div>
                         </div>
                     </div>
@@ -55,13 +56,13 @@
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body my-2">
                                 <h5>Fast Delivery and Excellent Customer Service</h5>
-                                <p>What sets Dazzleen Food apart is our commitment to speedy delivery and outstanding
-                                    customer service. We understand that when you're hungry, you don't want to wait.
-                                    That's why we strive to get your food to you as quickly as possible without
-                                    compromising on quality.</p>
-                                <p>Our customer service team is always ready to assist with any inquiries or issues you
-                                    may have, ensuring a smooth and enjoyable experience every time you order with us.
-                                </p>
+                                <p>Yang membedakan Dazzleen Food adalah komitmen kami untuk pengiriman cepat dan layanan
+                                    pelanggan yang luar biasa. Kami memahami bahwa ketika Anda lapar, Anda tidak ingin
+                                    menunggu. Itulah sebabnya kami berusaha mengirimkan makanan Anda secepat mungkin
+                                    tanpa mengorbankan kualitas.</p>
+                                <p>Tim layanan pelanggan kami selalu siap membantu dengan pertanyaan atau masalah apa
+                                    pun yang Anda miliki, memastikan pengalaman yang lancar dan menyenangkan setiap kali
+                                    Anda memesan dengan kami.</p>
                             </div>
                         </div>
                     </div>
@@ -69,7 +70,8 @@
             </div>
             <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
                 <div class="FAQ-img rounded">
-                    <img src="https://media.self.com/photos/622912847b959736301bfb91/master/pass/GettyImages-1301412050.jpg" class="img-fluid w-100" alt="">
+                    <img src="https://media.self.com/photos/622912847b959736301bfb91/master/pass/GettyImages-1301412050.jpg"
+                        class="img-fluid w-100" alt="">
                 </div>
             </div>
         </div>

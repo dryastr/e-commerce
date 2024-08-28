@@ -13,23 +13,60 @@
             font-weight: 400;
             font-style: normal;
         }
+
+        .title-jumbotron {
+            font-size: 100px;
+            line-height: 127px;
+        }
+
+        @media (max-width: 992px) {
+            .title-jumbotron {
+                font-size: 80px;
+                line-height: 100px;
+            }
+
+            .hero-header {
+                padding-top: 200px !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .title-jumbotron {
+                font-size: 60px;
+                line-height: 80px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .title-jumbotron {
+                font-size: 40px;
+                line-height: 50px;
+            }
+
+            .hero-header img {
+                display: none;
+            }
+        }
     </style>
 @endpush
 
 @section('content')
-    <!-- Hero Header Start -->
     <div class="hero-header overflow-hidden px-5" id="jumbotron">
         <div class="row gy-5 align-items-center justify-content-between">
             <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
                 <h4 class="mb-1 text-dark righteous-regular">Email Marketing</h4>
-                <h1 class="display-4 text-dark mb-4 wow fadeInUp righteous-regular" data-wow-delay="0.3s"
-                    style="font-size: 100px; line-height: 127px;">HomeMade</h1>
-                <p class="fs-5 mb-4 wow fadeInUp" data-wow-delay="0.5s">Welcome to Dazzleen Food! We are proud to be your
-                    top choice for pre-ordering food. Here, you can easily manage your orders, browse the latest menu, and
-                    take advantage of various features for a better shopping experience. Thank you for choosing Dazzleen
-                    Food, and enjoy our fast, easy, and reliable service!</p>
-                <a href="#" class="btn btn-primary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.7s">Our
-                    Menu</a>
+                <h1 class="title-jumbotron text-dark mb-4 wow fadeInUp righteous-regular" data-wow-delay="0.3s"
+                    style="">HomeMade</h1>
+                <p class="fs-5 mb-4 wow fadeInUp" data-wow-delay="0.5s">Selamat datang di Dazzleen Food! Kami bangga menjadi
+                    pilihan utama Anda untuk memesan makanan dengan sistem pre-order. Di sini, Anda dapat dengan mudah
+                    mengelola pesanan, melihat menu terbaru, dan memanfaatkan berbagai fitur untuk pengalaman berbelanja
+                    yang lebih baik. Terima kasih telah memilih Dazzleen Food, dan selamat menikmati layanan kami yang
+                    cepat, mudah, dan terpercaya!</p>
+                <a href="https://wa.me/6281298781633" target="_blank"
+                    class="btn btn-primary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.7s">
+                    <i class="bi bi-whatsapp"></i>
+                    Hubungi Kami
+                </a>
             </div>
             <div class="col-lg-6 wow fadeInRight d-flex text-center align-items-center justify-content-center m-auto"
                 data-wow-delay="0.2s" style="width: 20rem;">
@@ -37,7 +74,6 @@
             </div>
         </div>
     </div>
-    <!-- Hero Header End -->
 
     <!-- About Start -->
     @include('user.group-section.about')

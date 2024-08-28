@@ -9,7 +9,7 @@
         <div class="navbar-nav ms-auto py-0">
             <a href="#jumbotron" class="nav-item nav-link active">Home</a>
             <a href="#about" class="nav-item nav-link">About</a>
-            <a href="#product" class="nav-item nav-link">Product</a>
+            <a href="#product" class="nav-item nav-link">Menu</a>
             <a href="#service" class="nav-item nav-link">Services</a>
             <a href="#faq" class="nav-item nav-link">FaQ's</a>
             <a href="#testimoni" class="nav-item nav-link">Testimoni</a>

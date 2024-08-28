@@ -1,12 +1,13 @@
 <div class="container-fluid blog py-5" id="product">
     <div class="container py-5">
         <div class="text-center mx-auto mb-5" style="max-width: 900px;">
-            <h4 class="text-primary righteous-regular">Our Products</h4>
+            <h4 class="text-primary righteous-regular">Our Menu</h4>
             <h1 class="display-5 mb-4 righteous-regular">Deliciously Crafted for You</h1>
-            <p class="mb-0">Indulge in the exquisite flavors of our handcrafted food products. At Dazzleen Food, we
-                take pride in using only the finest ingredients to create meals that delight your taste buds. Whether
-                you’re craving something savory or sweet, our diverse selection promises to bring warmth and joy to
-                every bite. Experience the difference in quality and taste—because you deserve nothing but the best.</p>
+            <p class="mb-0">Nikmati kelezatan dari produk makanan buatan tangan kami. Di Dazzleen Food, kami bangga
+                menggunakan hanya bahan-bahan terbaik untuk menciptakan hidangan yang memanjakan lidah Anda. Apapun yang
+                Anda inginkan, baik itu yang gurih maupun manis, pilihan kami yang beragam menjanjikan kehangatan dan
+                kebahagiaan di setiap gigitan. Rasakan perbedaan dalam kualitas dan rasa—karena Anda layak mendapatkan
+                yang terbaik.</p>
         </div>
 
         <!-- Tabs -->
